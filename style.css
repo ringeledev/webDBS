@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 0px;
-    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    background-color: rgb(57, 57, 214);
     align-items: center;
     
 }
@@ -171,88 +171,3 @@ header h1 {
 	background-color:rgb(139, 114, 250);
 }
 
-
-
-.contact-section{
-    background-color: #7c0dbd;
-    min-height: 100vh;
-    width: 100%;
-    color: #37ecba;
-}
-
-
-.contact-headings h2{
-    font-size: 3em;
-    padding: 40px;
-    text-align: center;
-}
-
-.container-contact{
-    padding: 3em;
-    margin: 0 auto;
-
-}
-
-.form{
-    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-    width: 90%;
-    margin: auto;
-    max-width: 400px;
-    height: 550px;
-    border-radius: 2em;
-    border-style: solid;
-    border-color: #000;
-    flex-direction: column;
-    padding: 3.5em 1.5em;
-    margin-top:2em;
-}
-
-.formcontainer{
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
-    color: #7c0dbd;
-}
-
-.formtitle{
-    text-align: center;
-    font-size: 1.9rem;
-    margin-bottom: .4em;
-}
-
-.forminput{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    padding: .8em;
-
-}
-.forminput--message{
-    resize: none;
-    padding: 1.8em 1em;
-    margin-bottom: 5em;
-}
-.formcta {
-    padding: .7em 0;
-    margin: 1em;
-    border: none;
-    text-transform: uppercase;
-    background-color: #495086;
-    color: #fff;
-    border-radius: 20px;
-    border:solid;
-    cursor: pointer;
-}
-
-
-.formcta:hover{
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    color: #fff;
-    transition: ease-in .4s;
-}
-
-@media (max-width:450px){
-    .form{
-        padding: 3.5 em 1em;
-    }
-}
